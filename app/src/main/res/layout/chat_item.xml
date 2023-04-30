@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:gravity="center"
     android:padding="@dimen/_10sdp">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -13,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
         android:orientation="vertical">
 
         <TextView
@@ -21,14 +22,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Android user"
-            android:textStyle="bold"
-            android:textSize="@dimen/_14sdp"/>
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Android user"
-            android:textSize="@dimen/_13sdp"/>
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textColor="#AEACAC"
+            android:textSize="@dimen/_11sdp"/>
 
     </LinearLayout>
 
