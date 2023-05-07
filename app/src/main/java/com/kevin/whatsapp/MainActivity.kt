@@ -14,7 +14,7 @@ import javax.net.ssl.SSLEngineResult.Status
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
-    var item = arrayOf("Calls", "Status", "Calls")
+    var item = arrayOf("Chats", "Status", "Calls")
     var fragments = arrayOf(ChatsFragment(), StatusFragment(), CallsFragment())
 
     override fun onCreate(savedInstanceState: Bundle?) {
